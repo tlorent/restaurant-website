@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basil &amp; Thyme is a vegatarian restaurant in Amsterdam that serves the most delicious food!">
+
+    <link rel="stylesheet" href="docs/css/vendors/css/normalize.css">
+    <link rel="stylesheet" href="docs/css/vendors/css/grid.css">
+    <link rel="stylesheet" href="docs/css/vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="docs/css/vendors/css/animate.css">
+    <link rel="stylesheet" href="docs/css/style.css">
+    <link rel="stylesheet" href="docs/css/queries.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./docs/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./docs/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./docs/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./docs/favicons/manifest.json">
+    <link rel="mask-icon" href="./docs/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./docs/favicons/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="msapplication-config" content="./docs/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Patua+One|Poiret+One|Raleway|Roboto" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400,600,700,800|Oswald:200,30|Raleway:300,400,400i,500|Roboto:300,400,500|Source+Sans+Pro:300,300i,400,400i" rel="stylesheet">
+
+    <title>Basil &amp; Thyme</title>
+
+  </head>
+  <body>
+
+    <!-- SECTION 0 - HEADER & NAVIGATION -->
+    <header>
+      <nav>
+        <div class="row">
+          <a class="logo js--logo" href="#">B <i class="fa fa-pagelines"></i> T</a>
+          <ul class="main-nav js--main-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li id="reservationNav"><a href="#reservation">Book A Table</a></li>
+          </ul>
+          <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+        </div>
+      </nav>
+      <div class="hero-text">
+        <h1 class="js--hero-text">Basil <i class="fa fa-pagelines"></i> Thyme</h1>
+      </div>
+    </header>
+    <!-- END SECTION 0 -->
+
+    <!-- SECTION 1 - ABOUT -->
+    <section class="section-about js--section-about js--wp-1" id="about">
+      <div class="row">
+        <h2>About Us</h2>
+        <p class="long-copy">Hello, we are Basil &amp; Thyme, a top-notch vegetarian gastronomic experience in Amsterdam. Organic food, freshly squeezed juices, homegrown falafel, we have it all.</p>
+      </div>
+
+      <div class="row">
+        <div class="col span-2-of-2 box about-features">
+          <i class="ion-ios-nutrition icon-big js--food-icon"></i>
+          <h3>Organic Food</h3>
+          <p>All our food, from vegetables to pies, are fresh, organic and local. Our food is provided by farmers in and around Amsterdam, as well as some of our own produce. Good for your health, the environment, and it tastes better!</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col span-2-of-2 box about-features">
+          <i class="ion-android-notifications-off icon-big js--notification-icon"></i>
+          <h3>Friend Zone</h3>
+          <p>We don’t have WiFi, so you can just put your phone down and enjoy each other’s company! Not enough to talk about? We provide games you can play before and after dinner.</p>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION 1 -->
+
+    <!-- SECTION PHOTOS -->
+    <!-- <section class="section-photos-2">
+    </section> -->
+    <!-- END SECTION PHOTOS -->
+
+    <!-- SECTION PHOTOS MEALS -->
+    <section class="section-meals js--wp-2">
+      <ul class="meals-showcase clearfix">
+        <li>
+          <figure class="meal-photo">
+            <img src="docs/img/restaurant1.jpg" alt="Restaurant terrace" id="food">
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="docs/img/restaurant2.jpg" alt="Restaurant counter">
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="docs/img/restaurant5.jpg" alt="Restaurant interior" id="foodStrawberries">
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="docs/img/restaurant4.jpg" alt="Restaurant tables">
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <!-- END SECTION PHOTOS -->
+
+    <!-- SECTION 2 - MENU -->
+    <section class="section-menu js--wp-3" id="menu">
+      <div class="row">
+        <h2>Menu</h2>
+        <p id="menu-copy">Have a look at our menu. We serve lunch, dinner, and delicious wine.</p>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3 box">
+          <h3><a id="js--lunch" href="#">Lunch</a></h3>
+          <ul class="menu-lunch hidden">
+            <li>Roasted Eggplant with Cream Sauce &mdash; €5,60</li>
+            <li>Roasted Eggplant with Tomato Sauce &mdash; €5,60</li>
+            <li>Lentil Salade with Beans &mdash; €3,80</li>
+            <li>Garden Vegetable Soup &mdash; €4,20</li>
+            <li>Italian Vegetarian Panini &mdash; €4,80</li>
+            <li>Amsterdam Avocado &mdash; €2,60</li>
+            <li>Chickpea and Tomato Salad &mdash; €6,60</li>
+            <li>French Fries &mdash; €2,20</li>
+            <li>Daily Salad &mdash; €3,80</li>
+          </ul>
+        </div>
+        <div class="col span-1-of-3 box">
+          <h3><a id="js--dinner" href="#">Dinner</a></h3>
+          <ul class="menu-dinner hidden">
+            <li>Courgette Carpaccio &mdash; €8,60</li>
+            <li>Vegetarian Burger &mdash; €10,20</li>
+            <li>Persian Zucchini Frittata &mdash; €12,60</li>
+            <li>Falafel Salad &mdash; €9,80</li>
+            <li>Orechiette with Rapini &amp; Goat Cheese &mdash; €10,30</li>
+            <li>Vegetable Ragout with Pesto &mdash; €11,40</li>
+            <li>Potato Tacos &mdash; €8,90</li>
+            <li>Ricotta &amp; Egg Gnocchi with Olivers, Capers, Tomato Sauce &mdash; €13,70</li>
+          </ul>
+        </div>
+        <div class="col span-1-of-3 box">
+          <h3><a id="js--wine" href="#">Wine</a></h3>
+          <ul class="menu-wine hidden">
+            <li>Sauvignon Blanc &mdash; Glass: €4,60 Bottle: €23</li>
+            <li>Pinot Gris &mdash; Glass: €5,20 Bottle: €25</li>
+            <li>Viognier &mdash; Glass: €3,30 Bottle: €20</li>
+            <li>Moscato &mdash; Glass: €3,80 Bottle: €23</li>
+            <li>Pinot Noir &mdash; Glass: €3,60 Bottle: €18</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION 2 -->
+
+    <!-- SECTION PHOTOS MEALS -->
+    <section class="section-meals js--wp-4">
+      <ul class="meals-showcase clearfix">
+        <li>
+          <figure class="meal-photo">
+            <img src="docs/img/food18.jpg" alt="Egg dish">
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="docs/img/food10-min.jpg" alt="Peppers">
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="docs/img/food11-min.jpg" alt="Egg dish 2">
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="docs/img/food14.jpg" alt="Peppers">
+          </figure>
+        </li>
+      </ul>
+      <ul class="meals-showcase clearfix">
+    </section>
+    <!-- END SECTION PHOTOS -->
+
+    <!-- SECTION 3 - RESERVATION -->
+    <section class="section-reservation js--wp-5" id="reservation">
+      <div class="row">
+        <h2>Book A Table</h2>
+        <p class="reservation-copy">Treat your taste buds with something unique and make a reservation!</p>
+      </div>
+
+      <div class="row">
+
+        <form class="contact-form" action="#" method="post">
+
+          <div class="row">
+            <div class="col span-1-of-3 box">
+              <label for="name">Name</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input class="reservation-boxes" type="text" name="name" placeholder="Your name" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col span-1-of-3 box">
+              <label for="email">Email</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input class="reservation-boxes" type="email" name="email" id="email" placeholder="Your name" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col span-1-of-3 box">
+              <label>Drop us a line</label>
+            </div>
+            <div class="col span-2-of-3">
+              <textarea class="reservation-boxes" name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="submit" value="Send it">
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+    <!-- END SECTION 3 -->
+
+    <!-- SECTION PHOTOS -->
+    <!-- <section class="section-photos-3">
+    </section> -->
+    <!-- END SECTION PHOTOS -->
+
+    <!-- SECTION 4 - CONTACT -->
+    <section class="section-contact js--wp-6" id="contact">
+      <div class="row">
+        <h2>Contact</h2>
+      </div>
+      <!-- <div class="row">
+          <div class="col span-1-of-2 box contact-boxes">
+            <h3>Location</h3>
+            <ul class="contact-info">
+              <li>Kinkerstraat 38</li>
+              <li>Amsterdam, 1096 AB</li>
+              <li>T: (0031) 6 334 85 373 </li>
+            </ul>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 box contact-boxes">
+          <h3>Opening Hours</h3>
+          <ul class="contact-info">
+            <li>Mon: Closed</li>
+            <li>Tue - Thur &amp; Sun: 18:00 - 24:00</li>
+            <li>Fri - Sat: 18:00 - 03:00</li>
+          </ul>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col span-2-of-2 box">
+            <!-- Google Maps -->
+            <div id="googleMap"></div>
+      </div>
+    </section>
+    <!-- END SECTION 4 -->
+
+    <footer>
+      <div class="row">
+        <!-- <div class="col span-1-of-4 box">
+          <h3>Sitemap</h3>
+          <ul class="footer-nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Reservation</a></li>
+          </ul>
+        </div> -->
+        <div class="col span-1-of-3 box footer-boxes">
+          <h3>Location</h3>
+          <ul class="footer-nav">
+            <li>Kinkerstraat 38</li>
+            <li>Amsterdam, 1096 AB</li>
+            <li>T: (0031) 6 334 85 373 </li>
+          </ul>
+        </div>
+        <div class="col span-1-of-3 box footer-boxes">
+          <h3>Opening Hours</h3>
+          <ul class="footer-nav">
+            <li>Mon: Closed</li>
+            <li>Tue - Thur: 18:00 - 24:00 </li>
+            <li>Fri - Sat: 18:00 - 03:00</li>
+            <li>Sun: 18:00 - 24:00</li>
+          </ul>
+        </div>
+        <div class="col span-1-of-3 box footer-boxes">
+          <h3>Connect with us</h3>
+          <ul class="social-icons">
+            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+            <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer-copy">
+      <div class="row">
+        <p>&copy; 2017 Basil &amp; Thyme. All rights reserved. <br><br>Designed by <a href="http://www.timlorent.nl">Tim Lorent</a>.</p>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top" style="display: inline;">
+      <i class="fa fa-arrow-circle-up"></i>
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="docs/vendors/jquery.waypoints.min.js"></script>
+
+    <script type="text/javascript" src="docs/js/script.js"></script>
+    <script type="text/javascript" src="docs/js/backToTop.js"></script>
+    <script type="text/javascript" src="docs/js/script-maps.js"></script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpJiCQsogu35iWcVoeJTkIb38PTxh0WUM&callback=initMap"
+    type="text/javascript"></script>
+
+    <script src="https://use.fontawesome.com/76105ad943.js"></script>
+
+  </body>
+</html>
