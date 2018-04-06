@@ -69,7 +69,6 @@
 @media only screen and (max-width: 767px) {
 	header {
 		background-attachment: static;
-		text-shadow: none;
 	}
 
 	body {
@@ -159,7 +158,6 @@
 @media only screen and (max-width: 480px) {
 	header {
 		background-attachment: static;
-		text-shadow: none;
 	}
 
 	section {
@@ -168,6 +166,7 @@
 
 	h1 {
 		margin-top: 100px;
+		text-shadow: none;
 	}
 
 	.contact-form {
